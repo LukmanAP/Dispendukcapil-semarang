@@ -47,6 +47,11 @@ Buat database dengan nama 'antriandukcapil'
 Jika melakukan Clone Project, rename file .env.example dengan env dan hubungkan
 database nya dengan mengisikan nama database, 'DB_DATABASE=antriandukcapil'
 
+Update Composer :
+```sh
+Composer Update
+```
+Tunggu hingga benar" slesai.
 
 Kemudian, Ketik pada terminal :
 ```sh
