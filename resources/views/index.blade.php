@@ -16,31 +16,25 @@
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="bi bi-person-bounding-box"></i>
-            <h3>Pencatatan E-KTP</a></h3>
+            <h3>Kutipan</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="bi bi-people"></i>
-            <h3>Kartu Keluarga</a></h3>
+            <h3>Legalisir</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="bi bi-person-badge"></i>
-            <h3>Akta Kelahiran</a></h3>
+            <h3>Cetak & Rekam E-Ktp</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
             <i class="bi bi-arrow-left-right"></i>
-            <h3>Surat Pindah</a></h3>
-          </div>
-        </div>
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <i class="bi bi-three-dots"></i>
-            <h3>Dan Sebagainya..</a></h3>
+            <h3>Konsultasi</a></h3>
           </div>
         </div>
       </div>
@@ -62,14 +56,14 @@
               Masyarakat bisa melakukan pendaftaran online dan memilih waktu kunjungan ke kantor Dukcapil sesuai dengan kebutuhan dan ketersediaan waktu mereka. Hal ini tentunya akan menghemat waktu dan tenaga masyarakat dalam melakukan pengurusan administrasi kependudukan.
             </p>
             <ul>
-              <li><i class="ri-number-1"></i> Kunjungi website antrian online Disdukcapil Kabupaten Timor Tengah Utara</li>
+              <li><i class="ri-number-1"></i> Kunjungi website antrian online Disdukcapil Kota Semarang</li>
               <li><i class="ri-number-2"></i> Login / Register akun </li>
               <li><i class="ri-number-3"></i> Pilih jenis layanan yang tersedia</li>
               <li><i class="ri-number-4"></i> Masukkan data diri anda</li>
               <li><i class="ri-number-5"></i> Simpan dan Cetak nomor urut antrian</li>
             </ul>
             <p>
-              Dengan adanya antrian dukcapil online, masyarakat tidak perlu lagi datang ke kantor Dinas Kependudukan dan Catatan Sipil (Dukcapil) untuk mengantri dan melakukan pengurusan administrasi kependudukan seperti pembuatan KTP, KK, akta kelahiran, dan sebagainya.
+              Dengan adanya antrian dukcapil online, masyarakat tidak perlu lagi datang ke kantor Dinas Kependudukan dan Catatan Sipil (Dukcapil) untuk mengantri dan melakukan pengurusan administrasi kependudukan seperti Kutipan, Legalisir, Cetak & Rekam E-Ktp dan Konsultasi.
             </p>
           </div>
         </div>

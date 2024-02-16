@@ -8,7 +8,7 @@
             <div class="footer-info">
               <h3><img src="/assets/img/logo.png" alt="" width="150px" height="150px"></h3>
               <p>
-                Kec. Kota Kefamenanu, Kabupaten Timor Tengah Utara, Nusa Tenggara Timur.
+              Kec. Gayamsari, Kota Semarang, Jawa Tengah .
               </p>
               <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -41,10 +41,8 @@
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Dapatkan Update Informasi Terbaru</h4>
-            <p>Kirimkan email anda untuk mendapatkan update informasi tentang layanan disdukcapil kabupaten Timor Tengah Utara</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
+            <p>Dapatkan Info terbaru dari Dispendukcapil Semarang dengan mengikuti Instagram kami</p>
+
 
           </div>
 
