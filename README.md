@@ -42,10 +42,7 @@ Sistem Antrian Disdukcapil Online menggunakan beberapa Teknologi diantaranya :
 
 Lakukan Clone Project/Unduh manual 
 
-Buat database dengan nama 'antriandukcapil'
-
-Jika melakukan Clone Project, rename file .env.example dengan env dan hubungkan
-database nya dengan mengisikan nama database, 'DB_DATABASE=antriandukcapil'
+import file .sql ke Phpmyadmin anda dengan nama database 'laravel'
 
 Update Composer :
 ```sh
