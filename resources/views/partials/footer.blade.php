@@ -12,9 +12,9 @@
               <p>Semarang - 50161 - Jawa Tengah</p>
               <p>Fax. 024 6707203</p>
               <div class="social-links mt-3">
-                <a href="https://wa.me/6285641604903/" target="_blank" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
-                <a href=https://twitter.com/DUKCAPILKOTASMG target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.instagram.com/disdukcapilkotasemarang/" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://wa.me/6285641604903/" target="_blank" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+                <a href=https://twitter.com/DUKCAPILKOTASMG target="_blank" class="twitter"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.instagram.com/disdukcapilkotasemarang/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
               </div>
             </div>
           </div>

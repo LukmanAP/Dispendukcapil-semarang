@@ -14,7 +14,7 @@
             @foreach ($antrianList as $key => $antrian)
                 <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
-                    <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                    <div class="icon"><i class="bi bi-people"></i></div>
                     <h4>{{ $antrian->nama_layanan }}</h4>
                     <div class="mt-3">
                         <a href="/daftar-antrian/{{ $antrian->slug }}" class="btn btn-danger mb-2">Cek List Antrian</a>

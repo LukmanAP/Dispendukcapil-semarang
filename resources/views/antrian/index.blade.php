@@ -46,16 +46,16 @@
                     @auth
                       <!-- Jika Kondisi Belum Login, Maka Menampilkan Alert Anda harus Login Dahulu -->
                       @if($antrian->ambilantrians->contains('user_id', Auth::id()))
-                        <button type="button" class="btn btn-primary" id="containsButton">Ambil Antrian</button>
+                        <button type="button" class="btn btn-danger" id="containsButton">Ambil Antrian</button>
                       <!-- Jika Kondisi Sudah Login, Maka Menampilkan Modal Tambah Antrian-->
                       @else
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-id="{{ $antrian->id }}" data-bs-target="#exampleModal">
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-id="{{ $antrian->id }}" data-bs-target="#exampleModal">
                           Ambil Antrian
                         </button>
                       @endif
                     <!-- Jika Kondisi Sudah Pernah Mengambil Antrian Di Layanan Yang Sama, Maka Muncul Alert Anda Sudah Mengambil Antrian ini -->
                     @else
-                      <button type="button" class="btn btn-primary" id="liveAlertBtn{{ $key }}" data-id="{{ $key }}">Ambil Antrian</button>
+                      <button type="button" class="btn btn-danger" id="liveAlertBtn{{ $key }}" data-id="{{ $key }}">Ambil Antrian</button>
                     @endauth
                     <div id="containsButtonlivePlaceholder"></div>
                   </div>
