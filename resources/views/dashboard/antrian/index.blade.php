@@ -8,7 +8,7 @@
     <div class="col-xl">
         <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">List Menu Antrian</h6>
+                <h6 class="m-0 font-weight-bold text-black">List Menu Antrian</h6>
                 <!-- Button untuk Menampilkan Modal Tambah -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tambah-menu-antrian">
                     <i class="bi bi-plus-square"></i> Tambah antrian Baru

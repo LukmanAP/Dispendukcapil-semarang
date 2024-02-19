@@ -60,7 +60,7 @@
                         $jam = date('H:i:s');
                     ?>
                   
-                  <button type="button" class="btn btn-outline-primary" id="jam">Jam : {{ $jam }}  ||  Tanggal : {{ $tanggal }}</button>
+                  <button type="button" class="btn btn-outline-danger" id="jam">Jam : {{ $jam }}  ||  Tanggal : {{ $tanggal }}</button>
                   <script>
                     function updateJam() {
                       var jam = new Date().toLocaleTimeString('en-US', { hour12: false });

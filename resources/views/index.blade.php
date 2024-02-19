@@ -8,33 +8,20 @@
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
           <h1>Dinas Kependudukan dan Pencatatan Sipil</h1>
-          <h2>Kec. Gayamsari, Kota Semarang, Jawa tengah</h2>
         </div>
       </div>
 
       <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
-            <i class="bi bi-person-bounding-box"></i>
-            <h3>Kutipan</a></h3>
+            <i class="bi bi-ticket-detailed"></i>
+            <h3><a href="/antrian">Ambil Antrian</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
           <div class="icon-box">
-            <i class="bi bi-people"></i>
-            <h3>Legalisir</a></h3>
-          </div>
-        </div>
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <i class="bi bi-person-badge"></i>
-            <h3>Cetak & Rekam E-Ktp</a></h3>
-          </div>
-        </div>
-        <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
-            <i class="bi bi-arrow-left-right"></i>
-            <h3>Konsultasi</a></h3>
+            <i class="bi bi-ticket-detailed-fill"></i>
+            <h3><a href="/daftar-antrian">Daftar Antrian</a></h3>
           </div>
         </div>
       </div>

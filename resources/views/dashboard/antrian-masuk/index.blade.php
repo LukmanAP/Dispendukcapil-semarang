@@ -5,7 +5,7 @@
     <div class="col-xl">
         <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Antrian Masuk Layanan {{ $antrian->nama_layanan }}</h6>
+                <h6 class="m-0 font-weight-bold text-black">Antrian Masuk Layanan {{ $antrian->nama_layanan }}</h6>
                 <form id="{{ $antrian->slug }}" action="/dashboard/antrian-masuk/{{ $antrian->slug }}/reset" method="POST">
                   @csrf
                   @method('delete')

@@ -6,7 +6,7 @@
     <div class="col-xl">
         <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Dashboard</h6>
+                <h6 class="m-0 font-weight-bold text-black">Dashboard</h6>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -31,14 +31,14 @@
     <div class="col-xl">
         <div class="card shadow mb-4">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Antian Masuk</h6>
+                <h6 class="m-0 font-weight-bold text-black">Antrian Masuk</h6>
             </div>
             <!-- Card Body -->
             <div class="card-body">
                 <div class="row">
                     @foreach ($antrianList as $key => $antrian)
                     <div class="col-lg-3 mb-4">
-                        <div class="card bg-primary text-white shadow">
+                        <div class="card bg-danger text-white shadow">
                             <div class="card-body">
                                 <a href="/dashboard/antrian-masuk/{{ $antrian->slug }}" style="color: white; text-decoration: none">{{ $antrian->nama_layanan }}</a>
                             </div>
