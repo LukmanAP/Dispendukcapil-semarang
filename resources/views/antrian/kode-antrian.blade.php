@@ -73,12 +73,14 @@
 </head>
 <body>
 	<div class="container">
-		<div class="logo">
-			<img src="data:image/png;base64,{{ $logo }}" alt="Logo Instansi" style="width:100px" height="100px">
-		</div>
-		<div class="header">
-			<h1>Dinas Kependudukan dan Pencatatan Sipil</h1>
-			<p style="margin-left: 50px">Kabupaten Timor Tengah Utara, Nusa Tenggara Timur</p>
+		<div class="row">
+			<div class="logo">
+				<img src="data:image/png;base64,{{ $logo }}" alt="Logo Instansi" style="width:65px; height:75px">
+			</div>
+			<div class="header">
+				<h1 class="" style=" text-align:center;">Dinas Kependudukan dan Pencatatan Sipil Kota Semarang 
+				</h1>
+			</div>
 		</div>
 		
         <hr>

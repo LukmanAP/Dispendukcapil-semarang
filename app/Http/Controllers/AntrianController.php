@@ -164,7 +164,7 @@ class AntrianController extends Controller
     public function cetakKodeAntrian(Ambilantrian $id)
     {
         $cetakKodeAntrian = Ambilantrian::find($id->id);
-        $logoPath = storage_path('app/public/logo/logo.png');
+        $logoPath = storage_path('../public/assets/img/logo.png');
 
         $logo = base64_encode(file_get_contents($logoPath));
 
