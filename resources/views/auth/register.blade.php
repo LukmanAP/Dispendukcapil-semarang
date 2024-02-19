@@ -2,11 +2,11 @@
 
 @section('auth')
 <div class="row d-flex align-items-center justify-content-center">
-    <div class="card col-lg-8 col-md-6 o-hidden border-0 shadow-lg my-5 ">
-        <div class="card-body p-5 d-flex align-items-center justify-content-center">
+    <div class="col-lg-8 col-md-6 my-5 p-5">
+        <div class=" p-5 d-flex align-items-center justify-content-center">
             <div class="col-lg-10">
                 <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Buat Akun Sistem Antrian Dukcapil </h1>
+                    <h5 class="text-gray-900 mb-4"><strong>Buat Akun Sistem Antrian Dukcapil</strong> </h5>
                 </div>
                 <form action="{{ route('register') }}" class="user" method="POST">
                     @csrf
@@ -54,7 +54,7 @@
                     </div>
                     <div class="row mt-3">
                         <div class="col-12 text-center">
-                            <p>Sudah punya akun?</p>
+                            <p style="font-size: 12px;">Sudah punya akun?</p>
                             <a class="btn btn-secondary btn-user btn-block" href="/login" role="button">Masuk</a>
                         </div>
                     </div>

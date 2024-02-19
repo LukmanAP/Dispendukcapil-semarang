@@ -9,7 +9,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Login </title>
+    <title>Sistem Antrian Dukcapil Online </title>
+
+    <link href="/assets/img/logo.png" rel="icon">
 
     <!-- Custom fonts for this template-->
     <link href="/dashboardAssets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -19,14 +21,24 @@
 
     <!-- Custom styles for this template-->
     <link href="/dashboardAssets/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
 
 </head>
 
-<body class="bg-danger">
+<body>
 
-    <div class="container">
-        @yield('auth')
-    </div>
+    {{-- Memasukkan script Header/Navbar dari folder partials --}}
+        @include('partials.navbar-auth')
+
+        {{-- Memasukkan view auth --}}
+            <div class="container">
+                @yield('auth')
+            </div>
+
+    {{-- Memasukkan script Footer dari folder partials --}}
+            @include('partials.footer-auth')
+
 
     <!-- Bootstrap core JavaScript-->
     <script src="/dashboardAssets/vendor/jquery/jquery.min.js"></script>
