@@ -7,7 +7,7 @@
             </a>
 
             <!-- Divider -->
-            <hr class="sidebar-divider my-0">
+            <hr class="sidebar-divider my-1">
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
@@ -47,14 +47,14 @@
             <br>
 
 
-            <div class="sidebar-heading">
+            <!-- <div class="sidebar-heading">
                 Data Master
             </div>
             <li class="nav-item">
                 <a class="nav-link" href="/dashboard/layanan">
                     <i class="bi bi-headset"></i>
                     <span>Layanan</span></a>
-            </li>
+            </li> -->
 
             <!-- Divider -->
             <hr class="sidebar-divider">

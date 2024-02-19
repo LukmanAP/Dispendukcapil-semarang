@@ -11,7 +11,7 @@
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                 <h6 class="m-0 font-weight-bold text-black">Layanan Disdukcapil</h6>
                 <!-- Button Tambah / Modal Tambah -->
-                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#tambah-layanan">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tambah-layanan">
                     <i class="bi bi-plus-square"></i> Tambah Layanan Baru
                 </button>
             </div>

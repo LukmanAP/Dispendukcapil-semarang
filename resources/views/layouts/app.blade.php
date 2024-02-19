@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Autentikasi</title>
+    <title>Login </title>
 
     <!-- Custom fonts for this template-->
     <link href="/dashboardAssets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -22,7 +22,7 @@
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-danger">
 
     <div class="container">
         @yield('auth')
