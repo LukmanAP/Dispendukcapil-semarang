@@ -1,5 +1,5 @@
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-danger sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/dashboard">
@@ -28,7 +28,7 @@
                     <i class="bi bi-list-columns-reverse"></i>
                     <span>Antrian</span></a>
             </li>
-            
+
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
@@ -40,7 +40,7 @@
                         <h6 class="collapse-header">Berdasarkan Layanan </h6>
                         @foreach ($antrians as $antrian)
                             <a class="collapse-item" href="/dashboard/antrian-masuk/{{ $antrian->slug }}">{{ $antrian->nama_layanan }}</a>
-                        @endforeach   
+                        @endforeach
                     </div>
                 </div>
             </li>
