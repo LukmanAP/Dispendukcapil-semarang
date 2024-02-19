@@ -17,7 +17,7 @@
                     <div class="icon"><i class="bx bxl-dribbble"></i></div>
                     <h4>{{ $antrian->nama_layanan }}</h4>
                     <div class="mt-3">
-                        <a href="/daftar-antrian/{{ $antrian->slug }}" class="btn btn-primary mb-2">Cek List Antrian</a>
+                        <a href="/daftar-antrian/{{ $antrian->slug }}" class="btn btn-danger mb-2">Cek List Antrian</a>
                     </div>
                     </div>
                 </div>
