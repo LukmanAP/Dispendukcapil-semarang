@@ -12,7 +12,7 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
                 <a class="nav-link" href="/dashboard">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <i class="bi bi-grid-fill"></i>
                     <span>Dashboard</span></a>
             </li>
 
@@ -32,7 +32,7 @@
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fa fa-users" aria-hidden="true"></i>
+                    <i class="bi bi-person-lines-fill"></i>
                     <span>Antrian Masuk</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
