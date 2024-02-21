@@ -7,22 +7,22 @@
 
       <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
         <div class="col-xl-6 col-lg-8">
-          <h1>Dinas Kependudukan dan Pencatatan Sipil</h1>
+          <h1>Sistem Antrian Online</h1>
         </div>
       </div>
 
       <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-        <div class="col-xl-2 col-md-4">
+        <div class="col-xl-4 col-md-2">
           <div class="icon-box">
             <i class="bi bi-ticket-detailed"></i>
             <h3><a href="/antrian">Ambil Antrian</a></h3>
           </div>
         </div>
-        <div class="col-xl-2 col-md-4">
+        <div class="col-xl-4 col-md-4">
           <div class="icon-box">
             <i class="bi bi-ticket-detailed-fill"></i>
-            <h3><a href="/daftar-antrian">Daftar Antrian</a></h3>
-          </div>
+            <h3><a href="/daftar-antrian">Cek Antrian</a></h3>
+          </d>
         </div>
       </div>
     </div>

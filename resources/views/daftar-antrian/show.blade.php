@@ -8,7 +8,7 @@
 
       <div class="section-title">
         <h2>Antrian</h2>
-        <p>Daftar Antrian {{ $listPendaftar->nama_layanan }}</p>
+        <p>List Antrian {{ $listPendaftar->nama_layanan }}</p>
       </div>
 
       <div class="row">

@@ -14,7 +14,7 @@
             <li class="dropdown"><a href="#"><span class="me-2">Antrian Online</span> <i class="bi bi-chevron-down me-3"></i></a>
               <ul>
                 <li><a href="/antrian">Ambil Antrian</a></li>
-                <li><a href="/daftar-antrian">Daftar Antrian</a></li>
+                <li><a href="/daftar-antrian">Cek Antrian</a></li>
               </ul>
             </li>
             <!-- <li><a class="nav-link scrollto me-3" href="/contact">Contact</a></li> -->
