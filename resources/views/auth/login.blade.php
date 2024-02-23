@@ -21,7 +21,13 @@
                             </div>
 
                             <div class="form-group">
-                                <input type="password" class="form-control form-control-user @error('password') is-invalid @enderror"id="password" name="password" placeholder="Masukkan Password">
+                                <div class="input-group">
+                                    <input type="password" class="form-control form-control-user @error('password') is-invalid @enderror" id="password" name="password" placeholder="Masukkan Password">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text field-icon fa fa-fw fa-eye toggle-password" style="cursor: pointer;"></span>
+                                    </div>
+                                </div>
+                                
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
                                         <p>{{ $message }}</p>
@@ -55,5 +61,17 @@
         </div>
     </div>
 
-    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const togglePassword = document.querySelector('.toggle-password');
+            const password = document.querySelector('#password');
+
+            togglePassword.addEventListener('click', function() {
+                const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+                password.setAttribute('type', type);
+                this.classList.toggle('fa-eye-slash');
+            });
+        });
+    </script>
+
 @endsection

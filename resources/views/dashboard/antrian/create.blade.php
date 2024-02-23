@@ -3,7 +3,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Menu Antrian Baru</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Layanan Baru</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form action="/dashboard/antrian/" method="POST" enctype="multipart/form-data">

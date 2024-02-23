@@ -6,7 +6,7 @@
   <div class="col-xl-8 mx-auto">
       <div class="card shadow mb-4">
           <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-              <h6 class="m-0 font-weight-bold text-primary">Edit Data Menu Antrian</h6>
+              <h6 class="m-0 font-weight-bold text-black">Edit Data Layanan</h6>
               <a class="btn btn-secondary float-end" href="/dashboard/antrian" role="button">Kembali</a>
           </div>
           <!-- Card Body -->

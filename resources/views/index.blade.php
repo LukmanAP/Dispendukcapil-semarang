@@ -39,7 +39,7 @@
           </div>
           <div class="col-lg-7 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
             <h3>Sistem Antrian Online Disdukcapil</h3>
-            <p class="fst-italic">
+            <p>
               Masyarakat bisa melakukan pendaftaran online dan memilih waktu kunjungan ke kantor Dukcapil sesuai dengan kebutuhan dan ketersediaan waktu mereka. Hal ini tentunya akan menghemat waktu dan tenaga masyarakat dalam melakukan pengurusan administrasi kependudukan.
             </p>
             <ul>

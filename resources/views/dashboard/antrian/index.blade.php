@@ -11,7 +11,7 @@
                 <h6 class="m-0 font-weight-bold text-black">List Menu Antrian</h6>
                 <!-- Button untuk Menampilkan Modal Tambah -->
                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tambah-menu-antrian">
-                    <i class="bi bi-plus-square"></i> Tambah antrian Baru
+                    <i class="bi bi-plus-square"></i> Tambah Layanan Baru
                 </button>
             </div>
             <!-- Card Body -->
@@ -21,7 +21,7 @@
                         <thead>
                             <tr>
                                 <th>No</th>
-                                <th>Nama Antrian</th>
+                                <th>Nama Layanan</th>
                                 <th>Deskripsi</th>
                                 <th>Batas Antrian</th>
                                 <th>Aksi</th>
