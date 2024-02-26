@@ -27,7 +27,7 @@
                                         <span class="input-group-text field-icon fa fa-fw fa-eye toggle-password" style="cursor: pointer;"></span>
                                     </div>
                                 </div>
-                                
+
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
                                         <p>{{ $message }}</p>
@@ -42,7 +42,7 @@
                                         Me</label>
                                 </div>
                             </div>
-                            
+
                             <div class="row d-flex ">
                                 <div class="col-12 text-center">
                                     <button type="submit" class="btn btn-danger btn-user btn-block">Masuk</button>
