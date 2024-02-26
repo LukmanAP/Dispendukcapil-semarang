@@ -7,12 +7,12 @@
     <!-- ======= View Antrian Depan / Frontend ======= -->
     <section id="services" class="services">
         <div class="container" data-aos="fade-up">
-  
+
           <div class="section-title">
             <h2>Antrian</h2>
             <p>Ambil Antrian Online</p>
           </div>
-  
+
           <div class="row">
 
             <!-- Alert Sukses -->
@@ -29,14 +29,14 @@
                   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
               </div>
             @endif
-                 
+
             <div id="liveAlertPlaceholder"></div>
-            
+
             <!-- Menampilkan Data Antrian -->
             @foreach ($antrianList as $key => $antrian)
             <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
                 <div class="icon-box">
-                
+
                   <div class="icon"><i class="bx bx-link-external"></i></div>
                   <h4>{{ $antrian->nama_layanan }}</h4>
                   <p>{{ $antrian->deskripsi }}</p>
@@ -60,7 +60,7 @@
                     <div id="containsButtonlivePlaceholder"></div>
                   </div>
                 </div>
-          
+
                 <!-- Menampilkan Accordion Yang Berisi Informasi & Persyaratan layanan -->
                 <div class="accordion" id="accordionExample{{ $key }}">
                   <div class="accordion-item">
@@ -107,7 +107,7 @@
               ].join('')
               alertPlaceholder.append(wrapper)
           }
-          
+
           const alertTriggers = document.querySelectorAll('[id^="liveAlertBtn"]')
           if (alertTriggers.length > 0) {
               alertTriggers.forEach(alertTrigger => {
