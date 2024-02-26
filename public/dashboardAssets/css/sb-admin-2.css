@@ -11284,6 +11284,7 @@ body.sidebar-toggled footer.sticky-footer {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .field-icon {
@@ -11292,3 +11293,4 @@ body.sidebar-toggled footer.sticky-footer {
   justify-content: center;
   border-radius: 20px;
 }
+
