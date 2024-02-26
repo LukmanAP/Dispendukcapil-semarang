@@ -11,14 +11,16 @@
         </div>
       </div>
 
+
       <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-        <div class="col-xl-4 col-md-2">
+        <div class="col-xl-4 col-md-2" onclick="redirectToAmbilAntrian()" >
           <div class="icon-box">
             <i class="bi bi-ticket-detailed"></i>
             <h3><a href="/antrian">Ambil Antrian</a></h3>
           </div>
         </div>
-        <div class="col-xl-4 col-md-4">
+
+        <div class="col-xl-4 col-md-4" onclick="redirectToCekAntrian()">
           <div class="icon-box">
             <i class="bi bi-ticket-detailed-fill"></i>
             <h3><a href="/daftar-antrian">Cek Antrian</a></h3>
@@ -58,4 +60,17 @@
       </div>
     </section><!-- End About Section -->
   </main><!-- End #main -->
+
+
+  <script>
+    function redirectToAmbilAntrian() {
+        window.location.href = "/antrian";
+    }
+
+    function redirectToCekAntrian() {
+        window.location.href = "/daftar-antrian";
+    }
+</script>
+
+
 @endsection
