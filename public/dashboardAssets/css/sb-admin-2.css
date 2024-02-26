@@ -11295,6 +11295,7 @@ body.sidebar-toggled footer.sticky-footer {
   padding: 5px;
   border: none;
   cursor: pointer;
+  background: none;
   /* background-color: rgb(48, 54, 58); */
   /* border-radius: 0 25px 25px 0; */
 }
