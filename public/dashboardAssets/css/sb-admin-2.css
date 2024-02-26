@@ -11281,21 +11281,14 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 .input-group-append {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 100%;
   display: flex;
   align-items: center;
-  padding-right: 10px; /* Sesuaikan jarak dengan input jika diperlukan */
-  /* border-radius: 20px; */
+  justify-content: center;
 }
 
 .field-icon {
-  padding: 5px;
-  border: none;
-  cursor: pointer;
-  background: none;
-  /* background-color: rgb(48, 54, 58); */
-  /* border-radius: 0 25px 25px 0; */
+  height: 100%;
+  border-style: groove;
+  justify-content: center;
+  border-radius: 20px;
 }
