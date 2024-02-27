@@ -10860,24 +10860,6 @@ a:focus {
   }
 }
 
-.bg-login-image {
-  /* background: url("https://source.unsplash.com/K4mSJ7kc0As/600x800"); */
-  background-position: center;
-  background-size: cover;
-}
-
-.bg-register-image {
-  background: url("https://source.unsplash.com/Mv9hjnEUHR4/600x800");
-  background-position: center;
-  background-size: cover;
-}
-
-.bg-password-image {
-  background: url("https://source.unsplash.com/oWTW-jNGl9I/600x800");
-  background-position: center;
-  background-size: cover;
-}
-
 form.user .custom-checkbox.small label {
   line-height: 1.5rem;
 }
@@ -10890,10 +10872,10 @@ form.user .form-control-user {
 
 form.user .btn-user {
   font-size: 0.8rem;
-  border-radius: 10rem;
+  border-radius: 0.5rem;
   padding: 0.75rem 1rem;
 }
-
+/* 
 .btn-google {
   color: #fff;
   background-color: #ea4335;
@@ -10929,8 +10911,8 @@ form.user .btn-user {
 .btn-google:not(:disabled):not(.disabled):active:focus, .btn-google:not(:disabled):not(.disabled).active:focus,
 .show > .btn-google.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
-}
-
+} */
+/* 
 .btn-facebook {
   color: #fff;
   background-color: #3b5998;
@@ -10966,7 +10948,7 @@ form.user .btn-user {
 .btn-facebook:not(:disabled):not(.disabled):active:focus, .btn-facebook:not(:disabled):not(.disabled).active:focus,
 .show > .btn-facebook.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
-}
+} */
 
 .error {
   color: #5a5c69;
