@@ -35,10 +35,10 @@
                                 <span class="input-group-text field-icon fa fa-fw fa-eye toggle-password" style="width: 30px;"></span>
                             </div>
                             @error('password')
-                                <span class="invalid-feedback" role="alert">
+                                <span class="invalid-feedback" style="border-radius: 20px;" role="alert">
                                     <p>{{ $message }}</p>
                                 </span>
-                             @enderror
+                            @enderror
                         </div>
                     </div>
 
@@ -48,12 +48,15 @@
                             <div class="input-group-append">
                                 <span class="input-group-text field-icon fa fa-fw fa-eye toggle-password1" style="width: 30px; "></span>
                             </div>
+
                             @error('password_confirmation')
                                 <span class="invalid-feedback" role="alert">
                                     <p>{{ $message }}</p>
                                 </span>
                             @enderror
                         </div>
+
+
                     </div>
 
                     <div class="row d-flex ">
@@ -78,8 +81,19 @@
 
 
     document.addEventListener('DOMContentLoaded', function() {
-            const togglePassword = document.querySelector('.toggle-password');
-            const password = document.querySelector('#password');
+        const togglePassword = document.querySelector('.toggle-password');
+        const password = document.querySelector('#password');
+
+        togglePassword.addEventListener('click', function() {
+            const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+            password.setAttribute('type', type);
+            this.classList.toggle('fa-eye-slash');
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const togglePassword1 = document.querySelector('.toggle-password1');
+        const password = document.querySelector('#password1');
 
             togglePassword.addEventListener('click', function() {
                 const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
