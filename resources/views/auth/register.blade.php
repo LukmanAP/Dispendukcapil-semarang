@@ -35,7 +35,7 @@
                                 <span class="input-group-text field-icon fa fa-fw fa-eye toggle-password" style="width: 30px;"></span>
                             </div>
                             @error('password')
-                                <span class="invalid-feedback" style="border-radius: 20px;" role="alert">
+                                <span class="invalid-feedback" role="alert">
                                     <p>{{ $message }}</p>
                                 </span>
                             @enderror
