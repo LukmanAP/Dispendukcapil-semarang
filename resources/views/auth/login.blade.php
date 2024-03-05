@@ -12,7 +12,7 @@
                         <form action="{{ route('login') }}" class="user" method="POST">
                             @csrf
                             <div class="form-group">
-                                <input type="email" class="form-control form-control-user @error('email') is-invalid @enderror" id="email" name="email" placeholder="Masukkan Alamat Email">
+                                <input type="email" class="form-control form-control-user @error('email') is-invalid @enderror" id="email" name="email" placeholder="Masukkan Alamat Email" autofocus>
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <p>{{ $message }}</p>

@@ -54,6 +54,12 @@
             <p>
               Dengan adanya antrian dukcapil online, masyarakat tidak perlu lagi datang ke kantor Dinas Kependudukan dan Catatan Sipil (Dukcapil) untuk mengantri dan melakukan pengurusan administrasi kependudukan seperti Kutipan, Legalisir, Cetak & Rekam E-Ktp dan Konsultasi.
             </p>
+            <p>
+                untuk layanan selain layanan diatas bisa mengurusnya melalui online dengan mengunjungi website dbawah ini.
+            </p>
+            <div class="center">
+                <a href="https://sidnok.semarangkota.go.id/"><button type="button" class="btn btn-primary btn-lg btn-block">SiDenok</button></a>
+            </div>
           </div>
         </div>
 

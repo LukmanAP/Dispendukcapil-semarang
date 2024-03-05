@@ -13,7 +13,7 @@ class Antrian extends Model
 {
     use HasFactory;
     Use Sluggable;
-    
+
     // protected $guarded = ['id'];
     protected $fillable = ['nama_layanan', 'kode','deskripsi', 'slug', 'persyaratan', 'batas_antrian', 'user_id'];
 
@@ -36,7 +36,7 @@ class Antrian extends Model
     {
         return 'slug';
     }
-    
+
     public function sluggable(): array
     {
         return [
