@@ -13,10 +13,23 @@
                             @csrf
                             <div class="form-group">
                                 <input type="email" class="form-control form-control-user @error('email') is-invalid @enderror" id="email" name="email" placeholder="Masukkan Alamat Email">
-                                @error('email')
+                                <!-- @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <p>{{ $message }}</p>
                                     </span>
+                                @enderror@enderror -->
+
+                                @error('email')
+
+                                <!-- @if ($errors->has('email')) -->
+                                    <span class="invalid-feedback" role="alert">
+                                        @if ($errors->has('email'))
+                                            @foreach ($errors->get('email') as $error)
+                                                <p>Email wajib diisi</p>
+                                            @endforeach
+                                        @endif
+                                    </span>
+                                <!-- @endif -->
                                 @enderror
                             </div>
 

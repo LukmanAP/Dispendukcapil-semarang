@@ -16,17 +16,10 @@
                     <span>Dashboard</span></a>
             </li>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider">
-
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Menu Antrian
-            </div>
             <li class="nav-item">
                 <a class="nav-link" href="/dashboard/antrian">
                     <i class="bi bi-list-columns-reverse"></i>
-                    <span>Antrian</span></a>
+                    <span>Layanan</span></a>
             </li>
 
             <li class="nav-item">
