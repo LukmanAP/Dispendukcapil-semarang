@@ -63,7 +63,7 @@ Route::middleware(['auth', 'role:admin'])->group(function () {
 // Route untuk user, hanya User/Pengambil Antrian yang bisa mengakses halaman-halaman ini
 Route::middleware(['auth', 'role:masyarakat'])->group(function () {
     Route::get('/antrian/create/{id}', [AntrianController::class, 'create']);  
-    Route::POST('/antrian', [AntrianController::class, 'store'])->name('store.antrian');  
+    Route::POST('/antrian', [AntrianController::class, 'store'])->name('store.antrian');    
     Route::get('/antrian/detail', [AntrianController::class, 'detail']);
     Route::DELETE('/antrian/detail/{id}', [AntrianController::class, 'destroy']);
     Route::get('/antrian/kode-antrian/{id}', [AntrianController::class, 'cetakKodeAntrian']);

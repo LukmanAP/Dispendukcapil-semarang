@@ -74,13 +74,3 @@ Akses Aplikasi di Web browser
 
 
 
-![Screenshot_930](https://github.com/dwipurnomo12/sistem-antrian-disdukcapil-online-laravel/assets/105181667/b785677c-57ee-4729-ad3d-cebd6c9a5ed4)
-
-![Screenshot_931](https://github.com/dwipurnomo12/sistem-antrian-disdukcapil-online-laravel/assets/105181667/e01f4f52-ada7-4422-aae9-cd0ce75c0d95)
-
-![Screenshot_932](https://github.com/dwipurnomo12/sistem-antrian-disdukcapil-online-laravel/assets/105181667/f115546b-5144-4c6f-a09c-3de5cdb4dc51)
-
-![Screenshot_933](https://github.com/dwipurnomo12/sistem-antrian-disdukcapil-online-laravel/assets/105181667/03b1a9c8-72cc-4b44-bd5e-b23e51fdde60)
-
-![Screenshot_934](https://github.com/dwipurnomo12/sistem-antrian-disdukcapil-online-laravel/assets/105181667/1f0b3922-9925-40d8-bac3-75ab86d3e3d3)
-

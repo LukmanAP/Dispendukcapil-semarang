@@ -11,7 +11,7 @@
                 <form action="{{ route('register') }}" class="user" method="POST">
                     @csrf
                     <div class="form-group">
-                        <input type="name" class="form-control form-control-user @error('name') is-invalid @enderror" id="name" name="name" placeholder="Masukkan Nama Anda">
+                        <input type="name" class="form-control form-control-user @error('name') is-invalid @enderror" id="name" name="name" placeholder="Masukkan Nama Anda" autofocus>
                         @error('name')
                             <span class="invalid-feedback" role="alert">
                                 <p>{{ $message }}</p>
