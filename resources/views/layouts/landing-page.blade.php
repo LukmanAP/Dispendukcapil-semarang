@@ -43,7 +43,7 @@
 <body>
 
   {{-- Memasukkan script Header/Navbar dari folder partials --}}
-  @include('partials.navbar-main')
+  @include('partials.navbar')
 
       {{-- Memasukkan View Home --}}
       @yield('container')

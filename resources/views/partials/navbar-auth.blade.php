@@ -9,7 +9,7 @@
         </div>
       </nav>
 
-      <a href="/" class="get-started-btn scrollto text-center">Home</a>
+      <a href="/home" class="get-started-btn scrollto text-center">Home</a>
 
     </div>
   </header><!-- End Header -->

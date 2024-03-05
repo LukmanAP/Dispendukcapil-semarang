@@ -24,7 +24,7 @@ use App\Http\Controllers\DisplayPanggilanController;
 
 // Route Halaman Utama/Home Depan
 Route::get('/', function () {
-    return view('index');
+    return view('landing-page');
 });
 
 // Route Halaman /home akan otomatis redirect ke view index
