@@ -36,13 +36,13 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row">
-          <div class="col-lg-5 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+          <div class="col-lg-4 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
             <img src="assets/img/about.png" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-7 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+          <div class="col-lg-8 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
             <h3>Sistem Antrian Online Disdukcapil</h3>
             <p>
-              Masyarakat bisa melakukan pendaftaran online dan memilih waktu kunjungan ke kantor Dukcapil sesuai dengan kebutuhan dan ketersediaan waktu mereka. Hal ini tentunya akan menghemat waktu dan tenaga masyarakat dalam melakukan pengurusan administrasi kependudukan.
+              Masyarakat bisa melakukan pendaftaran online dan memilih waktu kunjungan ke kantor Dukcapil sesuai dengan kebutuhan dan ketersediaan waktu mereka. 
             </p>
             <ul>
               <li><i class="ri-number-1"></i> Kunjungi website antrian online Disdukcapil Kota Semarang</li>
@@ -52,7 +52,7 @@
               <li><i class="ri-number-5"></i> Simpan dan Cetak nomor urut antrian</li>
             </ul>
             <p>
-              Dengan adanya antrian dukcapil online, masyarakat tidak perlu lagi datang ke kantor Dinas Kependudukan dan Catatan Sipil (Dukcapil) untuk mengantri dan melakukan pengurusan administrasi kependudukan seperti Kutipan, Legalisir, Cetak & Rekam E-Ktp dan Konsultasi.
+              Dengan adanya antrian dukcapil online, masyarakat tidak perlu lagi datang ke kantor Dinas Kependudukan dan Catatan Sipil (Dukcapil) untuk mengantri dan melakukan pengurusan administrasi kependudukan.
             </p>
           </div>
         </div>

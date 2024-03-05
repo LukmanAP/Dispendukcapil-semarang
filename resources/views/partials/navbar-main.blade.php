@@ -17,7 +17,6 @@
                 <li><a href="/daftar-antrian">Cek Antrian</a></li>
               </ul>
             </li>
-            <!-- <li><a class="nav-link scrollto me-3" href="/contact">Contact</a></li> -->
           </ul>
           <i class="bi bi-list mobile-nav-toggle me-3"></i>
         </div>
