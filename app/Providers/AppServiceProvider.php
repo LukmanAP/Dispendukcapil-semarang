@@ -22,8 +22,14 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
 
-        $antrians = Antrian::all();
-        view::share('antrians', $antrians);
+
+
+        if(config('app.env') === 'production') {
+            URL::forceScheme('https');
+
+            $antrians = Antrian::all();
+            view::share('antrians', $antrians);
+        }
     }
 
 }
