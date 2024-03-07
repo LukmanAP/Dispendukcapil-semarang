@@ -22,7 +22,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
 
-
         $antrians = Antrian::all();
         view::share('antrians', $antrians);
 
