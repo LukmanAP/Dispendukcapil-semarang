@@ -19,16 +19,13 @@ class AppServiceProvider extends ServiceProvider
     /**
      * Bootstrap any application services.
      */
-    // public function boot(): void
-    // {
-    //     $antrians = Antrian::all();
-    //     view::share('antrians', $antrians);
-    // }
-
-    public function boot() {
+    public function boot(): void
+    {
         if(config('app.env') === 'production') {
             URL::forceScheme('https');
         }
+        $antrians = Antrian::all();
+        view::share('antrians', $antrians);
     }
 
 }
