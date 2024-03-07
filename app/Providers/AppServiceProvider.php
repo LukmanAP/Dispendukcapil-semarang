@@ -24,10 +24,6 @@ class AppServiceProvider extends ServiceProvider
 
         $antrians = Antrian::all();
         view::share('antrians', $antrians);
-
-        if(config('app.env') === 'production') {
-            URL::forceScheme('https');
-        }
     }
 
 }
