@@ -6,12 +6,12 @@
     <!-- ======= View Detail Antrian User ======= -->
     <section id="services" class="services">
         <div class="container" data-aos="fade-up">
-  
+
           <div class="section-title">
             <h2>Antrian</h2>
             <p>Detail Antrian {{ auth()->user()->name }}</p>
           </div>
-  
+
           <div class="row">
 
             <!-- Menampilkan Alert Sukses -->
@@ -74,21 +74,21 @@
                             </form>
 
                              <!-- Cetak Detail Antrian Yang Diambil User-->
-                            <a class="btn btn-success btn-icon-split mb-2" href="/antrian/kode-antrian/{{ $detail->id }}" target="_blank" role="button">
+                            <!-- <a class="btn btn-success btn-icon-split mb-2" href="/antrian/kode-antrian/{{ $detail->id }}" target="_blank" role="button">
                                 <span class="icon text-white-100">
                                     <i class="bi bi-printer"></i>
                                 </span>
                                 <span class="text">Cetak</span>
-                            </a>
+                            </a> -->
                         </div>
-                        
+
                         </div>
                       </div>
                   </div>
-                </div>    
-                @endforeach  
+                </div>
+                @endforeach
               @endif
-            </div>        
+            </div>
           </div>
 
         </div>
